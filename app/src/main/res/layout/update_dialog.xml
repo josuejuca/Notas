@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="@color/black_shade_2">
+
+
+    <TextView
+        android:id="@+id/idTVHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:text="@string/atualizar_nota"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/idEdtUpdateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHead"
+        android:layout_margin="5dp"
+        android:hint="@string/atualizar"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <Button
+        android:id="@+id/idBtnUpdateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtUpdateNote"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_button_back"
+        android:text="@string/atualizar"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
