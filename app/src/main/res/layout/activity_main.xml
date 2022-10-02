@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black_shade_1"
+    android:background="@drawable/backgroung_gradient"
     tools:context=".MainActivity">
 
-    <!--recycler view for displaying all notes-->
+    <!--reciclador para exibir todas as notas-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notesRV"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:layout_marginTop="5dp"
         tools:listitem="@layout/note_rv_item" />
 
-    <!--fab for adding a new note-->
+    <!--adicionar nova nota-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/idFAB"
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
         android:src="@drawable/ic_add"
-        app:backgroundTint="@color/black_shade_2"
+        app:backgroundTint="#6898FF"
         app:tint="@color/white" />
 
 </RelativeLayout>

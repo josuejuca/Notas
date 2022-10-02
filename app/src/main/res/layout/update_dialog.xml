@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:padding="10dp"
-    android:background="@color/black_shade_2">
+    android:background="#FF0583F2">
 
 
     <TextView
@@ -37,7 +37,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idEdtUpdateNote"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/custom_button_back"
         android:text="@string/atualizar"
         android:textAllCaps="false" />

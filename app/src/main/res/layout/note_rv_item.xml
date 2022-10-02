@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    app:cardBackgroundColor="@color/black_shade_2"
+    app:cardBackgroundColor="@color/c4"
     app:cardCornerRadius="5dp"
     app:cardElevation="3dp">
 
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp">
 
-        <!--text view for displaying our note text-->
+        <!--visualização de texto para exibir nosso texto de nota-->
         <TextView
             android:id="@+id/idTVNote"
             android:layout_width="match_parent"
