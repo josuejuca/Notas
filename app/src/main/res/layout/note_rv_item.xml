@@ -30,7 +30,7 @@
             android:textColor="@color/white"
             android:textSize="18sp" />
 
-        <!--text view for displaying our last updated text-->
+        <!--visualização de texto para exibir nosso último texto atualizado-->
         <TextView
             android:id="@+id/idTVDate"
             android:layout_width="match_parent"
